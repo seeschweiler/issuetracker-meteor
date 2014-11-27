@@ -1,0 +1,20 @@
+<template name="issuesList">
+  <div class="panel panel-default">
+    <div class="panel-heading">Issue List</div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Due Date</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each issues}}
+          {{> issueItem}}
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</template>
