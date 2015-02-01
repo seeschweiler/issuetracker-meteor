@@ -1,0 +1,16 @@
+<template name="layout">
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="#">Home</a></li>
+      </ul>
+      <img width="180px" src="issuetracker_logo.png" alt="IssueTracker" style="margin-bottom:10px">
+    </div>
+    <div>
+      {{> yield}}
+    </div>
+    <div class="footer">
+      <p>Built with Meteor</p>
+    </div>
+  </div>
+</template>

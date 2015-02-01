@@ -1,0 +1,28 @@
+<template name="editIssue">
+  <h1>Edit Issue</h1>
+  <form>
+    <div class="form-group">
+      <label>Title</label>
+      <input type="text" id="title" value="{{title}}" />
+    </div>
+    <div class="form-group">
+      <label>Description</label>
+      <input type="text" id="description" value="{{description}}" />
+    </div>
+    <div class="form-group">
+      <label>Due Date: </label>
+      <input type="text" id="dueDate" value="{{dueDate}}" />
+    </div>
+    <div class="form-group">
+      <label>Priority</label>
+      <select class="form-control" id="priority">
+        <option {{selected priority "High"}}>High</option>
+        <option {{selected priority "Medium"}}>Medium</option>
+        <option {{selected priority "Low"}}>Low</option>
+      </select>
+    </div>
+    <a href="/" type="button" class="btn btn-default">Cancel</a>
+    <input type="submit" class="btn btn-primary" value="Save">
+  </form>
+  <br><br>
+</template>
