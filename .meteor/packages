@@ -4,8 +4,9 @@
 # but you can also edit it by hand.
 
 meteor-platform
-insecure
 mizzao:bootstrap-3
 iron:router
 
 sacha:spin
+ian:accounts-ui-bootstrap-3
+accounts-password

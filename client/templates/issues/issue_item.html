@@ -5,9 +5,9 @@
     <td>{{dueDate}}</td>
     <td>{{priority}}</td>
     <td>
-      <a href="{{pathFor 'editIssue'}}" class="btn btn-default btn-sm">
+      {{#if currentUser}}<a href="{{pathFor 'editIssue'}}" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-pencil"></span>
-      </a>
+      </a>{{/if}}
     </td>
   </tr>
 </template>

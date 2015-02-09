@@ -15,12 +15,18 @@ Template.editIssue.events = {
       priority: $('#priority').val()
     }
 
-    Issues.update(this._id, {$set: issueProp}, function(error){
-      if (error){
-        alert(error.reason);
-      }
-    });
+//    Issues.update(this._id, {$set: issueProp}, function(error){
+//      if (error){
+//        alert(error.reason);
+//      }
+//    });
+
+  Meteor.call('updateIssue', this._id, issueProp, function(error, result) {
+    if (error)
+      return alert(error.reason);
 
     Router.go('issuesList');
+  });
+
   }
 }
