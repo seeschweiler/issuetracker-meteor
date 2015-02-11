@@ -4,10 +4,17 @@
     <td>{{description}}</td>
     <td>{{dueDate}}</td>
     <td>{{priority}}</td>
+    {{#if currentUser}}
     <td>
-      {{#if currentUser}}<a href="{{pathFor 'editIssue'}}" class="btn btn-default btn-sm">
+      <a href="{{pathFor 'editIssue'}}" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-pencil"></span>
-      </a>{{/if}}
+      </a>
     </td>
+    <td>
+      <a href="{{pathFor 'deleteIssue'}}" type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-trash"></span>
+      </a>
+    </td>
+    {{/if}}
   </tr>
 </template>

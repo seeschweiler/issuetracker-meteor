@@ -1,0 +1,17 @@
+<template name="deleteIssue">
+  <div class="alert alert-danger" role="alert">
+    <h2>Do you really want to delete this issue?</h2>
+    <hr>
+    <p>
+      <strong>Title:</strong> {{this.title}}<br/>
+      <strong>Description:</strong> {{this.description}}<br/>
+      <strong>Due Date:</strong> {{this.dueDate}}<br/>
+      <strong>Priority:</strong> {{this.priority}}
+    </p>
+    <hr>
+    <p>
+      <button class="btn btn-danger deleteConfirm">Yes</button>
+      <a href="{{pathFor 'issuesList'}}" class="btn btn-danger">No</a>
+    </p>
+  </div>
+</template>

@@ -17,4 +17,12 @@
       </tbody>
     </table>
   </div>
+  {{#if currentUser}}
+  <div>
+    <a href="/issue/create" class="btn btn-primary">
+      + Add new Issue
+    </a>
+  </div>
+  <br>
+  {{/if}}
 </template>
