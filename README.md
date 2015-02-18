@@ -1,14 +1,14 @@
-# Meteor
-## Web-Applikationen entwickeln mit dem METEOR JavaScript-Framework
+# IssueTracker Meteor
+### Meteor - Web-Applikationen entwickeln mit dem METEOR JavaScript-Framework
 ### Code-Beispiele zum Buch
 
-[alt tag](https://raw.github.com/seeschweiler/issuetracker-meteor/master/images/Meteor_Cover_300w.png)
+[alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/Meteor_Cover_300w.png)
 
-# IssueTracker-Beispielanwendung
+## IssueTracker-Beispielanwendung
 
-[alt tag](https://raw.github.com/seeschweiler/issuetracker-meteor/master/images/issuetracker_logo_400w.png)
+[alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/issuetracker_logo_400w.png)
 
-## GitHub-Repository klonen
+### GitHub-Repository klonen
 Um das _GitHub_Repository der _IssueTracker_-Applikation herunterzuladen führen Sie das folgende Kommando im Terminal aus:
 
 ```
@@ -16,7 +16,7 @@ git clone https://github.com/seeschweiler/issuetracker-meteor.git issuetracker-m
 ```
 
 
-## Checkout durchführen
+### Checkout durchführen
 Wechseln Sie im Anschluss in das neu erstellte Verzeichnis _issuetracker-meteor_. Sie finden hier den finalen Stand des Projektes, den Sie am Ende dieses Buches erreicht haben. Möchten Sie auf einen Zwischenstand zugreifen führen Sie das folgende Kommando innerhalb des Projektverzeichnisses aus:
 
 ```
@@ -33,11 +33,11 @@ git checkout master
 
 jederzeit möglich.
 
-## Ausführen der Anwendung
+### Ausführen der Anwendung
 Das Ausführen der Anwendung ist durch die Eingabe des Befehls
 
 ```
 meteor
 ```
 
-im Projektverzeichnis möglich. Ist das Meteor-Framework auf Ihrem System noch nicht installiert, finden Sie die notwendigen Schritte zur Installation auf https://www.meteor.com/install. 
+im Projektverzeichnis möglich. Ist das Meteor-Framework auf Ihrem System noch nicht installiert, finden Sie die notwendigen Schritte zur Installation auf https://www.meteor.com/install.
