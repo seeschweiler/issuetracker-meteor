@@ -9,7 +9,7 @@
 ![alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/issuetracker_logo_400w.png)
 
 ### GitHub-Repository klonen
-Um das _GitHub_Repository der _IssueTracker_-Applikation herunterzuladen führen Sie das folgende Kommando im Terminal aus:
+Um das _GitHub_Repository_ der _IssueTracker_-Applikation herunterzuladen führen Sie das folgende Kommando im Terminal aus:
 
 ```
 git clone https://github.com/seeschweiler/issuetracker-meteor.git issuetracker-meteor
@@ -17,7 +17,7 @@ git clone https://github.com/seeschweiler/issuetracker-meteor.git issuetracker-m
 
 
 ### Checkout durchführen
-Wechseln Sie im Anschluss in das neu erstellte Verzeichnis _issuetracker-meteor_. Sie finden hier den finalen Stand des Projektes, den Sie am Ende dieses Buches erreicht haben. Möchten Sie auf einen Zwischenstand zugreifen führen Sie das folgende Kommando innerhalb des Projektverzeichnisses aus:
+Wechseln Sie im Anschluss in das neu erstellte Verzeichnis _issuetracker-meteor_. Sie finden hier den finalen Stand des Projektes, den Sie am Ende dieses Buches erreicht haben. Möchten Sie auf einen Zwischenstand zugreifen, führen Sie das folgende Kommando innerhalb des Projektverzeichnisses aus:
 
 ```
 git checkout [commit-identifier]
