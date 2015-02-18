@@ -2,11 +2,11 @@
 ### Meteor - Web-Applikationen entwickeln mit dem METEOR JavaScript-Framework
 ### Code-Beispiele zum Buch
 
-[alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/Meteor_Cover_300w.png)
+![alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/Meteor_Cover_300w.png)
 
 ## IssueTracker-Beispielanwendung
 
-[alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/issuetracker_logo_400w.png)
+![alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/issuetracker_logo_400w.png)
 
 ### GitHub-Repository klonen
 Um das _GitHub_Repository der _IssueTracker_-Applikation herunterzuladen führen Sie das folgende Kommando im Terminal aus:
