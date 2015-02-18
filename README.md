@@ -1,6 +1,6 @@
 # IssueTracker Meteor
-### Meteor - Web-Applikationen entwickeln mit dem METEOR JavaScript-Framework
-### Code-Beispiele zum Buch
+#### Meteor - Web-Applikationen entwickeln mit dem METEOR JavaScript-Framework
+#### Code-Beispiele zum Buch
 
 ![alt tag](https://raw.githubusercontent.com/seeschweiler/issuetracker-meteor/master/images/Meteor_Cover_300w.png)
 
